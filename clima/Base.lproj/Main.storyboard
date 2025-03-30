@@ -37,7 +37,7 @@
                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <action selector="searchPresses:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cRU-4k-wdX"/>
+                                            <action selector="searchPresses:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s9U-2f-pSX"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -50,14 +50,14 @@
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="g9S-8Y-wNe">
-                                <rect key="frame" x="248" y="239.00000000000003" width="119" height="81.333333333333343"/>
+                                <rect key="frame" x="248" y="257" width="119" height="63.333333333333314"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="21" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZB5-Ab-xqe">
-                                        <rect key="frame" x="0.0" y="0.0" width="72.333333333333329" height="81.333333333333329"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="21" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZB5-Ab-xqe">
+                                        <rect key="frame" x="0.0" y="0.0" width="72.333333333333329" height="63.333333333333336"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="72.333333333333329" id="xPg-60-hnl"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="68"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="53"/>
                                         <color key="textColor" name="abc"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -78,9 +78,9 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="London" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OPd-fd-i1M">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="London" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OPd-fd-i1M">
                                 <rect key="frame" x="226" y="328" width="141" height="44"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
                                 <color key="textColor" name="abc"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -107,10 +107,10 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="cityLabel" destination="OPd-fd-i1M" id="mAK-ta-7Qt"/>
-                        <outlet property="conditionImage" destination="qhZ-4e-dQ8" id="7sS-uK-hG7"/>
-                        <outlet property="searchTextField" destination="znc-5s-Gf9" id="1l9-WZ-0zs"/>
-                        <outlet property="temperaturLabel" destination="ZB5-Ab-xqe" id="ToE-nY-Xal"/>
+                        <outlet property="cityLabel" destination="OPd-fd-i1M" id="pcp-WR-n8N"/>
+                        <outlet property="conditionImage" destination="qhZ-4e-dQ8" id="rWa-uM-Shr"/>
+                        <outlet property="searchTextField" destination="znc-5s-Gf9" id="nAg-Su-Iic"/>
+                        <outlet property="temperaturLabel" destination="ZB5-Ab-xqe" id="Z1K-H7-fua"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
